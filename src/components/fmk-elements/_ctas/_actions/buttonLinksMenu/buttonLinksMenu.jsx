@@ -1,4 +1,4 @@
-import "./ButtonLinksMenu.css"
+import "./buttonLinksMenu.css"
 
 export default function ButtonLinksMenu() {
     return(
