@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "id": "01",
+            "imgPath": "/images/carla-mendonca.png",
+            "name": "Carla Mendonça",
+            "text": "A equipe da Arasaka foi essencial em um momento crítico da minha empresa. Atuaram com precisão, agilidade e total domínio jurídico. Hoje, considero a Arasaka uma parceira estratégica para os nossos negócios."
+        },
+
+        {
+            "id": "02",
+            "imgPath": "/images/eduardo-sakamoto.png",
+            "name": "Eduardo Sakamoto",
+            "text": "Tive uma experiência excepcional com a Arasaka. O atendimento é personalizado, a comunicação é clara e senti total confiança em cada etapa do processo. Recomendo com tranquilidade."
+        },
+
+        {
+            "id": "03",
+            "imgPath": "/images/luciana-ribeiro.png",
+            "name": "Luciana Ribeiro",
+            "text": "O suporte jurídico da Arasaka na estruturação do nosso planejamento sucessório foi impecável. Profissionalismo, discrição e profundo conhecimento técnico definem essa equipe."
+        }
+    ]
+}

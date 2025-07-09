@@ -1,0 +1,30 @@
+{
+    "header": {
+        "menuOptions": [
+            {
+                "name": "Início",
+                "reference": "#hero"
+            },
+            
+            {
+                "name": "Sobre Nós",
+                "reference": "#about-us"
+            },
+
+            {
+                "name": "Serviços",
+                "reference": "#services"
+            },
+
+            {
+                "name": "Perguntas",
+                "reference": "#questions"
+            },
+
+            {
+                "name": "Contato",
+                "reference": "#contact"
+            }
+        ]
+    }
+}

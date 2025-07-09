@@ -1,0 +1,40 @@
+{
+    "sectionName": "Serviços",
+    "items": [
+        {
+            "name": "Consultoria Jurídica Empresarial",
+            "text": "Análise e orientação jurídica estratégica para empresas de todos os portes. Inclui estruturação societária, contratos, prevenção de litígios e apoio em tomadas de decisão. Nosso foco é proteger o negócio e garantir segurança jurídica nas operações.",
+            "imgPath": "/images/consulting.png"
+        },
+
+        {
+            "name": "Contencioso Cível e Empresarial",
+            "text": "Atuação firme e técnica na resolução de conflitos judiciais ou arbitrais. Defendemos os interesses dos nossos clientes em disputas contratuais, indenizatórias, societárias e outras demandas complexas do direito privado.",
+            "imgPath": "/images/corporate.png"
+        },
+
+        {
+            "name": "Direito Trabalhista",
+            "text": "Gestão estratégica de passivos trabalhistas e assessoria preventiva em relações de trabalho. Atuamos tanto na elaboração de políticas internas quanto na defesa em processos judiciais e negociações com sindicatos.",
+            "imgPath": "/images/work.png"
+        },
+
+        {
+            "name": "Planejamento Patrimonial e Sucessório",
+            "text": "Estruturação legal de bens e ativos para preservação familiar, sucessão e proteção patrimonial. Desenvolvemos soluções sob medida com foco em estabilidade, economia tributária e segurança jurídica a longo prazo.",
+            "imgPath": "/images/patrimony.png"
+        },
+
+        {
+            "name": "Compliance e Governança Corporativa",
+            "text": "Implementação de programas de integridade, políticas internas e boas práticas de governança. Atuamos na prevenção de riscos legais e reputacionais, garantindo conformidade com leis e regulamentos nacionais e internacionais.",
+            "imgPath": "/images/compliance.png"
+        },
+
+        {
+            "name": "Direito Digital e Proteção de Dados (LGPD)",
+            "text": "Assessoria completa na adequação à Lei Geral de Proteção de Dados e em temas relacionados ao ambiente digital, como contratos de tecnologia, responsabilidade civil online e segurança da informação.",
+            "imgPath": "/images/digital.png"
+        }
+    ]
+}

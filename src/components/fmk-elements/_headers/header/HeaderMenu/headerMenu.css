@@ -1,0 +1,57 @@
+.header-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-option {
+    height: 100%;
+    width: 20%;
+}
+
+.menu-option p {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.menu-option p:hover{
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+.embeded-option-menu {
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.embeded-option-menu a {
+    padding: 3%;
+    margin-bottom: 1%;
+}
+
+
+@media (max-width: 800px) {
+
+    .header-menu {
+        /* background-color: yellow; */
+        width: 100vw;
+        /* justify-self: right; */
+    }
+
+
+    .menu-option {
+        font-size: 80%;
+        width: 20%;
+        /* background-color: yellowgreen; */
+    }
+
+    .embeded-option-menu {
+        width: 200%;
+    }
+}

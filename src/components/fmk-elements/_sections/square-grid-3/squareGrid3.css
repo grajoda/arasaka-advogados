@@ -1,0 +1,71 @@
+.square-grid-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.square-grid-3 h1 {
+    /* background-color: yellowgreen; */
+    width: 50%;
+    text-align: right;
+    color: goldenrod;
+
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    padding: 1%;
+}
+
+.square-grid-3-list {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+
+.square-grid-3-item {
+    background-color: rgb(246, 246, 246);
+    width: 30%;
+    /* padding: 0.5%; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 10px; 
+
+    margin: 1%;
+    border-color: goldenrod;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.square-grid-3-item-image-section {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    grid-area: 1 / 1;
+}
+
+.square-grid-3-item-image-section img {
+    /* background-color: blue; */
+    width: 100%;
+    /* height: 100%; */
+}
+
+.square-grid-3-item-text-content {
+    color: rgb(240, 248, 255);
+    grid-area: 1 / 1;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+@media (max-width: 800px) {
+    .square-grid-3-item {
+        width: 100%;
+    }
+}
+

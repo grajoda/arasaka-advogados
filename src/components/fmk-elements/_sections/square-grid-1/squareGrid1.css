@@ -1,0 +1,49 @@
+.square-grid-1 {
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.square-grid-1-list {
+    /* background-color: yellow; */
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.square-grid-1-item {
+    /* background-color: rgb(218, 218, 218); */
+    width: 26%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 2rem;
+}
+
+.square-grid-1-item img {
+    /* background-color: blue; */
+    width: 10rem;
+    height: 10rem;
+}
+
+.square-grid-1-item h2 {
+    color: goldenrod;
+}
+
+
+
+@media (max-width: 800px) {
+
+    .square-grid-1-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .square-grid-1-item {
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,68 @@
+.cta-2 {
+    background-color: cyan;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    color: aliceblue;
+}
+
+.cta-2-img {
+    background-color: yellowgreen;
+    object-fit: cover;
+    width: 100%;
+    height: 30rem;
+    grid-area: 1 / 1;
+}
+
+.cta-2-content {
+    background-color: rgba(218, 218, 218, 0.772);
+    padding: 2%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.458), rgba(0, 0, 0, 0.892));
+    grid-area: 1 / 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-2-text-section {
+    width: 45%;
+}
+
+.cta-2-vertical-divisory {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    height: 100%;
+    width: 1px;
+}
+.cta-2-vertical-divisory p {
+    display: none;
+}
+
+.cta-2-action-section {
+    width: 45%;
+    text-align: center;
+    align-content: center;
+}
+
+
+@media (max-width: 800px) {
+    .cta-2-content {
+        flex-direction: column;
+    }
+
+    .cta-2-img {
+        height: 34rem;
+    }
+
+    .cta-2-vertical-divisory {
+        height: 1px;
+        width: 100%;
+    }
+
+    .cta-2-text-section {
+        text-align: center;
+        width: 100%;
+    }
+
+    .cta-2-action-section {
+        width: 100%;
+    }
+}

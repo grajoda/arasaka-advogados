@@ -1,0 +1,29 @@
+.footer {
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact-section {
+    /* background-color: yellowgreen; */
+    width: 50%;
+}
+
+.footer-contact-section h2 {
+    margin: 0;
+}
+
+.footer-social-networks-section{
+
+}
+
+.footer-social-networks-section a {
+    padding: 5%;
+    font-size: 200%;
+}

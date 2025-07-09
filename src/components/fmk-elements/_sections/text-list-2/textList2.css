@@ -1,0 +1,59 @@
+.text-list-2 {
+    /* background-color: yellowgreen; */
+    align-items: center;
+    align-content: center;
+}
+
+.text-list-2 h1 {
+    /* background-color: rgb(219, 219, 219); */
+    padding: 1%;
+    text-align: center;
+    color: goldenrod;
+
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    /* border-width: 50%; */
+}
+
+
+.text-list-2-item-list {
+    /* background-color: yellow; */
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text-list-2-item {
+    /* background-color: rgb(228, 228, 228); */
+    width: 80%;
+    margin-bottom: 1%;
+}
+
+.text-list-2-item h2 {
+    /* background-color: tomato; */
+    /* background-color: rgb(200, 200, 200); */
+    /* justify-self: right; */
+    width: 60%;
+    margin: 0;
+    padding: 1%;
+
+    color: goldenrod;
+
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    /* text-align: center; */
+}
+
+
+.text-list-2-item p {
+    text-align: center;
+    padding: 1%;
+    width: 50%;
+    justify-self: center;
+}

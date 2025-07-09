@@ -1,0 +1,29 @@
+.header-logo {
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-logo img {
+    /* background-color: springgreen; */
+    width: 37%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+
+    .header-logo {
+        /* background-color: yellowgreen; */
+        width: 15%;
+        /* display: none; */
+    }
+
+    .header-logo img {
+        /* background-color: yellowgreen; */
+        width: 4rem;
+        height:4rem;
+        object-fit: cover;
+    }
+
+}

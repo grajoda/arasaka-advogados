@@ -1,0 +1,19 @@
+{
+    "sectionName": "",
+    "items": [
+        {
+            "name": "Atendimento Personalizado",
+            "imgPath": "/images/attending.png"
+        },
+
+        {
+            "name": "Ética e Transparência",
+            "imgPath": "/images/ethics.png"
+        },
+
+        {
+            "name": "Estratégia",
+            "imgPath": "/images/strategy.png"
+        }
+    ]
+}

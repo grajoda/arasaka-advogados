@@ -1,0 +1,63 @@
+.cta-form-2 {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-2-input-section {
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    /* height: 100%; */
+}
+
+.name-lastname-area{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-2-input-section input {
+    /* background-color: violet; */
+    padding: 2%;
+    border-radius: 0.5rem;
+    border-width: 0;
+    width: 96%;
+    margin-bottom: 2%;
+}
+
+.form-2-input-section textarea {
+    /* background-color: violet; */
+    padding: 2%;
+    border-radius: 0.5rem;
+    border-width: 0;
+    width: 96%;
+    margin-bottom: 2%;
+    resize: none;
+    height: 5rem;
+}
+
+#name-input {
+    width: 45%;
+}
+
+#last-name-input {
+    width: 45%;
+}
+
+@media (max-width: 800px) {
+    .form-2-input-section {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .form-2-input-section input {
+        width: 100%;
+        margin: 1%;
+    }
+}

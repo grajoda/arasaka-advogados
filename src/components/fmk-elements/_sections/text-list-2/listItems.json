@@ -1,0 +1,33 @@
+{
+    "items": [
+        {
+            "id": "01",
+            "name": "Quais documentos são necessários para iniciar um processo judicial?",
+            "text": "Depende da natureza da ação, mas geralmente são exigidos documentos de identificação pessoal, contratos, comprovantes de pagamento, e-mails, mensagens, fotos, entre outros que ajudem a comprovar os fatos. Em nossa consultoria inicial, orientamos exatamente quais documentos são relevantes para o seu caso."
+        },
+
+        {
+            "id": "02",
+            "name": " É possível resolver meu problema sem entrar com um processo?",
+            "text": "Sim. Sempre buscamos uma solução extrajudicial antes de propor uma ação, seja por meio de negociação, acordo ou mediação. Isso costuma ser mais rápido, econômico e menos desgastante para todas as partes envolvidas."
+        },
+
+        {
+            "id": "03",
+            "name": "Quanto tempo leva para um processo ser concluído?",
+            "text": "O tempo varia conforme o tipo de ação, a complexidade do caso e o tribunal responsável. Alguns casos são resolvidos em poucos meses; outros podem levar anos. No entanto, acompanhamos cada etapa de forma próxima e transparente, mantendo o cliente sempre informado."
+        },
+
+        {
+            "id": "04",
+            "name": "Como são cobrados os honorários advocatícios?",
+            "text": "Os honorários podem ser fixos, por hora trabalhada ou com base em êxito (percentual sobre o valor obtido). Tudo é formalizado em contrato, com clareza e previsibilidade, conforme o tipo de serviço e a complexidade do caso."
+        },
+
+        {
+            "id": "05",
+            "name": "Meu atendimento será feito por um advogado especializado na área do meu problema?",
+            "text": "Sim. Na Arasaka, cada caso é analisado por profissionais especializados na área correspondente, garantindo conhecimento técnico aprofundado e soluções jurídicas mais eficazes."
+        }
+    ]
+}

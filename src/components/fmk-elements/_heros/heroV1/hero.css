@@ -1,0 +1,49 @@
+.hero-1 {
+    background-image: url("/images/arasaka-reception-b.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 42rem; 
+    display: flex;
+}
+
+.hero-1-introduction {
+    padding: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-1-introduction h1 {
+    /* color: goldenrod; */
+    font-size: 300%;
+}
+
+.hero-1-introduction h3 {
+    color: goldenrod;
+    font-size: 150%;
+}
+
+.separator {
+    background-color: goldenrod;
+    height: 2px;
+    width: 50%;
+    justify-self: right;
+}
+
+.separator a {
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    .hero-1 {
+        background-color: yellowgreen;
+        height: 90vh;;
+    }
+
+    .separator {
+        width: 100%;
+    }
+}

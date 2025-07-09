@@ -1,0 +1,35 @@
+.search-bar {
+    /* background-color: yellowgreen; */
+    align-content: center;
+    width: 30%;
+    /* justify-content: center; */
+}
+
+.search-input-background {
+    background-color: white;
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    justify-self: center;
+}
+
+.search-input {
+    width: 80%;
+    border: 0;
+}
+
+@media (max-width: 800px) {
+
+    .search-input-background {
+        width: 70%;
+        height: 30%;
+        align-items: center;
+    }
+
+    .search-input {
+        font-size: 100%;
+    }
+}
